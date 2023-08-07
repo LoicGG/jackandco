@@ -1,11 +1,12 @@
 /* styles.css */
-body{
+.bandeausuperieur {     
+    background-color: #d83d3d
     
 }
 
-.bandeausuperieur {
-    background-color: #d83d3d
-    
-
-
+nav {
+    margin: 100px auto;
+    width: 50%;
+    height: 100px;
+    background: #48435C;
 }
