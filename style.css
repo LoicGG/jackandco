@@ -1,7 +1,13 @@
 /* styles.css */
+body {
+    margin:auto;
+}
+
 .bandeausuperieur {     
-    background-color: #d83d3d
-    
+    background-color: white;
+    color: #48435C;
+    display: flex;
+    justify-content:end;
 }
 
 nav {
@@ -9,4 +15,25 @@ nav {
     width: 50%;
     height: 100px;
     background: #48435C;
+}
+
+nav .main_pages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .main_pages a {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-decoration :none;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+nav a:hover {
+    background: #5A5766;
 }
