@@ -49,7 +49,7 @@ label, #toggle {
     nav .main_pages {
         display: none;
         flex-direction: column;
-        background: rgb(200, 30, 30);
+        background: rgb(200, 60, 60);
         height: 220px;
     }
     nav .main_pages a {
