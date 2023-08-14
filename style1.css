@@ -45,7 +45,29 @@ nav ul {
         display: block;
     }
     #icons::before {
-        content: "\2630";
+        content: "MENU \2630";
+        font-size: calc(1rem + 1.5vw);
     }
-    
+    .active #icons:before {
+        content: "\2715";
+    }
+    nav ul {
+        position: fixed;
+        left: -100%;
+        top: 5%;
+        flex-direction: column;
+        background: skyblue;
+        width: 100%;
+        text-align: center;
+        transition: 0.25s;
+    }
+    nav li {
+        padding: 3px;
+    }
+    nav li:hover {
+        background-color: rgb(170, 41, 30);
+    }
+    nav.active ul {
+        left: 0;
+    }
 }
