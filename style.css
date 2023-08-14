@@ -17,6 +17,15 @@ a:visited {
 
 a:hover {
     color: white;
+}   
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("worker.jpg");
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    top: 0px;
+    z-index: -1;
 }
 
 /************NAVBAR***********/
@@ -25,14 +34,16 @@ nav {
     background-color: skyblue;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0px;
+    align-items: center;
     font-size: calc(0.5rem + 1.5vw);    
 }
 
 .logo img {
-    position:fixed;
-    max-width: 30%;
+    position: relative;
+    max-width: 70%;
     max-height: 80px;
+    padding: 5px;
 }
     
 nav ul {
@@ -76,8 +87,14 @@ nav ul {
     nav.active ul {
         left: 50%;
     }
-}
+    .hero-image {
+        position: relative;
+        width: auto;
+        bottom: -150px;    
+    }
+
+    .logo img {
+        
+    }
 
 /************ FIN DE NAVBAR***********/
-
-
