@@ -1,3 +1,5 @@
+/*************** GENERAL RULES ******************/
+
 * {
     padding: 0%;
     margin: 0;
@@ -19,14 +21,6 @@ a:hover {
     color: white;
 }   
 
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("worker.jpg");
-    background-size: cover;
-    height: 600px;
-    position: relative;
-    top: 0px;
-    z-index: -1;
-}
 
 /************NAVBAR***********/
 
@@ -34,9 +28,11 @@ nav {
     background-color: skyblue;
     display: flex;
     justify-content: space-between;
-    padding: 0px;
+    padding: 0% 5% 0% 0%;
     align-items: center;
-    font-size: calc(0.5rem + 1.5vw);    
+    font-size: calc(0.5rem + 1.5vw);
+    position: sticky;
+    top: 0;
 }
 
 .logo img {
@@ -49,7 +45,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
-    width: 70%;    
+    width: 70%;  
 }
 
 #icons {
@@ -57,7 +53,7 @@ nav ul {
     display: none;  
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     #icons {
         display: block;
     }
@@ -87,14 +83,4 @@ nav ul {
     nav.active ul {
         left: 50%;
     }
-    .hero-image {
-        position: relative;
-        width: auto;
-        bottom: -150px;    
-    }
-
-    .logo img {
-        
-    }
-
 /************ FIN DE NAVBAR***********/
