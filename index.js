@@ -1,3 +1,5 @@
+/************  Navigation Bar ****************/
+
 const links = document.querySelectorAll("nav li");
 
 icons.addEventListener("click",() => {
@@ -9,3 +11,4 @@ links.forEach((link) => {
         nav.classList.remove("active");
     });
 });
+/***************END OF NAV BAR ****************/
