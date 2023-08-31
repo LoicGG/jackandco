@@ -87,7 +87,7 @@ nav ul {
     nav ul {
         position: fixed;
         left: +100%;
-        top: 10vw;
+        top: 15vw;
         flex-direction: column;
         background: skyblue;
         width: 50%;
@@ -108,7 +108,7 @@ nav ul {
         left: 50%;
     }
 }
-/************ FIN DE NAVBAR***********/
+/************ ||  FIN DE NAVBAR & FIN DE MEDIA QUERIES ||  ***********/
 
 
 
@@ -158,8 +158,7 @@ nav ul {
     width: auto;
     height: 20vw;
     position: relative;
-    top: 30%;
-    
+    top: 20%;   
 }
 
 .traitement > h2 {
