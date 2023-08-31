@@ -87,7 +87,7 @@ nav ul {
     nav ul {
         position: fixed;
         left: +100%;
-        top: 6%;
+        top: 7%;
         flex-direction: column;
         background: skyblue;
         width: 50%;
