@@ -9,6 +9,7 @@
 
 body, html {
     font-size: 14px;
+    height: 100%;
 }
 
 li {
@@ -86,7 +87,7 @@ nav ul {
     nav ul {
         position: fixed;
         left: +100%;
-        top: 8%;
+        top: 6%;
         flex-direction: column;
         background: skyblue;
         width: 50%;
