@@ -152,13 +152,16 @@ nav ul {
 
 .ecologo {
     padding: 1%;
+    object-fit: contain;
+
 }
 
 .ecologo img {
     width: auto;
     height: 20vw;
     position: relative;
-    top: 20%;   
+    top: 10%;
+    object-fit: contain;
 }
 
 .traitement > h2 {
