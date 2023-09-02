@@ -94,6 +94,7 @@ nav ul {
         text-align: center;
         transition: 0.25s;
         border: 1px solid grey;
+        border-radius: 10px;
     }
     
     nav li {
@@ -102,6 +103,7 @@ nav ul {
     
     nav li:hover {
         background-color: rgb(31, 180, 239);
+        
     }
     
     nav.active ul {
