@@ -87,7 +87,7 @@ nav ul {
     nav ul {
         position: fixed;
         left: +100%;
-        top: 15vw;
+        top: 60px;
         flex-direction: column;
         background: skyblue;
         width: 50%;
@@ -103,6 +103,8 @@ nav ul {
     
     nav li:hover {
         background-color: rgb(31, 180, 239);
+        border-radius: 10px;
+        border: 1px solid rgb(1, 129, 184);
         
     }
     
@@ -117,7 +119,7 @@ nav ul {
 
 /* ||**********--------------- MAIN PAGE --------------*********** || */
 
-
+/* ||**********-------------- SECTION HERO -------------********** || */
 .hero {
     width: auto;
     height: 50vw;
@@ -137,6 +139,9 @@ nav ul {
     font-size: 4vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* ||**********------------- MISSION ENTREPRISE -------------********** || */
+
 
 .missionentreprise {
     display: flex;
@@ -173,7 +178,7 @@ nav ul {
     padding-bottom: 5%;
 
 }
-
+/* || ***************------------- PRESTATIONS *************----------- || */
 
 
 
