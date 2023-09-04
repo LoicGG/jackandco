@@ -186,17 +186,11 @@ nav ul {
 /* || ***************------------- PRESTATIONS *************----------- || */
 
 .sectionPrestations {
-    border: 2px solid green;
-   display: flex;
-   ;
+   border: 2px solid green;
+   width: auto;
+   height: 400px;
 }
 
 .prestations div {
-    height: 120px;
-    width: 120px;    
-    display: inline-flex;
-    border: 2px solid red;
-    margin: 20px;
-    
+    border: 2px solid red;    
 }
-
