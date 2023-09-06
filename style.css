@@ -10,6 +10,7 @@
 body, html {
     font-size: 14px;
     height: 100%;
+    overflow: auto;
 }
 
 li {
@@ -33,7 +34,6 @@ a:hover {
 header {
     position: sticky;
     top: 0;
-    z-index: 1;
 }
 
 nav {
@@ -68,7 +68,7 @@ nav ul {
 
 /* || ******************  NAV BAR - MEDIA QUERIES ****************/
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     
     #icons {
         display: block;
@@ -133,12 +133,11 @@ nav ul {
 }
 
 .hero-text {
+    padding-top: 25%;
     text-align: center;
     color: white;
     text-transform: uppercase;
     text-align: center;
-    position: relative;
-    top: 50%;
     font-size: 4vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -148,32 +147,31 @@ nav ul {
 
 .sectionMission {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     border: 1px solid black;
     background-color: #F6F4EB;
     font-size: 18px;
+    border: 1px solid blue;
+    align-items: center;
 }
 
 .mission {
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-    padding: 5%; 
+    padding: 5%;
+    border: 1px solid yellow;
+    max-width: 700px;
 }
 
 .ecologo {
-    padding: 1%;
-    object-fit: contain;
-
+    border: 1px solid green;
+    flex-grow: 1;
+    
 }
-
+/*
 .ecologo img {
+    margin: 3vw;
     width: auto;
     height: 20vw;
-    position: relative;
-    top: 10%;
-    object-fit: cover;
-}
+} */
 
 .mission > h2 {
     text-align: center;
