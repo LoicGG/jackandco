@@ -203,30 +203,37 @@ nav ul {
     height: 40vw;
     margin: 5vw;
     border: 3px solid grey;
+    border-radius: 10%;
     text-align: center;
     text-transform: uppercase;
     font-size: 3vw;
     justify-content: center;
-    color: #F6F4EB;
+    color: #ffffff;
+    line-height: 3;
 }
 
 .deratisation {
-    background-image: url(rat.png);
+    background: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(rat.png);
+    background-size: cover;
 }
 
 .desinsectisation {
-    background-image: url(insecte.png);
+    background: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(insecte.png);
+    background-size: cover;
 }
 
 .desinfection {
-    background-image: url(desinfection.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(desinfection.png);
+    background-size: cover;
 }
 
 .depigeonnage {
-    background-image: url(pigeons.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(pigeons.png);
+    background-size: cover;
 }
 .destruction {
-    background-image: url(niddeguepes.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(niddeguepes.png);
+    background-size: cover;
 }
 
 .multiservices {
@@ -234,10 +241,10 @@ nav ul {
     justify-content: center;
 }
 .interieure {
-    background-image: url(renovationinterieure.png);
-    background-size: contain;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(renovationinterieure.png);
+    background-size: cover;
 }
 .exterieure {
-    background-image: url(renovationexterieure.png);
-    background-size: contain;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(renovationexterieure.png);
+    background-size: cover;
 }
