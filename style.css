@@ -190,7 +190,7 @@ nav ul {
 
 
 
-.flexbox-container {
+.cinqD {
     display: flex;
     min-height: 80vw;
     border: 2px solid red;
@@ -207,7 +207,6 @@ nav ul {
     text-align: center;
     text-transform: uppercase;
     font-size: 3vw;
-    justify-content: center;
     color: #ffffff;
     line-height: 3;
 }
