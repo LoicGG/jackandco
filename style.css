@@ -68,7 +68,7 @@ nav ul {
 
 /* || ******************  NAV BAR - MEDIA QUERIES ****************/
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
     
     #icons {
         display: block;
