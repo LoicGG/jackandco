@@ -151,13 +151,14 @@ nav ul {
     flex-direction: row;
     border: 1px solid black;
     background-color: #F6F4EB;
+    font-size: 18px;
 }
 
 .mission {
     display: flex;
     flex-direction: column;
     width: 75%;
-    padding: 5%;
+    padding: 5%; 
 }
 
 .ecologo {
