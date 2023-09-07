@@ -11,7 +11,9 @@ body, html {
     font-size: 16px;
     height: 100%;
     overflow: auto;
+    width: 100%;
 }
+
 
 li {
     list-style: none;
@@ -186,17 +188,32 @@ nav ul {
 
 
 
+/* ------------- |  COMPORTEMENT DES CONTENEURS |------------ */
+
 .prestations {
     display: flex;
     flex-wrap: wrap;
-    border: 3px solid rgba(253, 82, 82, 0.559);
     border-radius: 2%;
     justify-content: center;
     background: radial-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(fermefinlandaise.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 1%;
 }
+
+.multiservices {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2em;
+    justify-content: center;
+    background: radial-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(fermefinlandaise.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1%;
+}
+
 
 .prestas {
     color: white;
@@ -219,6 +236,9 @@ nav ul {
     color: #ffffff;
     line-height: 3;
 }
+
+
+/*---------- | VIGNETTES DES PRESTATIONS | ---------- */
 
 .deratisation {
     background: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(rat.png);
@@ -250,12 +270,8 @@ nav ul {
     background-position: center;
 }
 
-.multiservices {
-    display: flex;
-    justify-content: center;
-    background-position: center;
-    flex-wrap: wrap;
-}
+/*--------- | RENOVATION INTERIEURE EXTERIEURE | --------- */
+
 .interieure {
     background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(renovationinterieure.png);
     background-size: cover;
