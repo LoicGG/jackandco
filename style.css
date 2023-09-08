@@ -14,6 +14,13 @@ body, html {
     width: 100%;
 }
 
+h2 {
+    text-align: center;
+    width: 100%;
+    border-bottom: 4px solid rgb(122, 193, 221);
+    padding-bottom: 5%;
+    margin-bottom: 20px;
+}
 
 li {
     list-style: none;
@@ -128,7 +135,7 @@ nav ul {
 .hero {
     width: auto;
     height: 50vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("worker.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/worker.jpg");
     background-size: cover;
     background-position-y: bottom;
     background-position-x: center;
@@ -152,14 +159,14 @@ nav ul {
 /* ||**********------------- MISSION ENTREPRISE -------------********** || */
 
 
-.sectionSpeech {
+.speech {
     display: flex;
     flex-wrap: wrap;
     background-color: #ebf5f6;
     font-size: 1.5em;
     align-items: center;
     padding: 5%;
-    max-width: 80rem;
+    text-align: justify;
 }
 
 .ecologo {
@@ -168,13 +175,7 @@ nav ul {
     margin-bottom: 3rem;
 }
  
-.mission > h2 {
-    text-align: center;
-    width: 100%;
-    border-bottom: 4px solid rgb(122, 193, 221);
-    padding-bottom: 5%;
-    margin-bottom: 20px;
-}
+
 
 
 
@@ -183,14 +184,14 @@ nav ul {
 
 
 
-/* ------------- |  COMPORTEMENT DES CONTENEURS |------------ */
+/* ------------- |  COMPORTEMENT DES CONTENEURS - VIGNETTES |------------ */
 
 .prestations {
     display: flex;
     flex-wrap: wrap;
     border-radius: 2%;
     justify-content: center;
-    background: radial-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(fermefinlandaise.png);
+    background: radial-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(images/fermefinlandaise.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,7 +203,7 @@ nav ul {
     flex-wrap: wrap;
     border-radius: 2em;
     justify-content: center;
-    background: radial-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(fermefinlandaise.png);
+    background: radial-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(images/fermefinlandaise.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -236,30 +237,30 @@ nav ul {
 /*---------- | VIGNETTES DES PRESTATIONS | ---------- */
 
 .deratisation {
-    background: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(rat.png);
+    background: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(images/rat.png);
     background-size: cover;
     background-position: center;
 }
 
 .desinsectisation {
-    background: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(insecte.png);
+    background: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(images/insecte.png);
     background-size: cover;
     background-position: center;
 }
 
 .desinfection {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(desinfection.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(images/desinfection.png);
     background-size: cover;
     background-position: center;
 }
 
 .depigeonnage {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(pigeons.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(images/pigeons.png);
     background-size: cover;
     background-position: center;
 }
 .destruction {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(niddeguepes.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(images/niddeguepes.png);
     background-size: cover;
     line-height: 2;
     background-position: center;
@@ -268,12 +269,12 @@ nav ul {
 /*--------- | RENOVATION INTERIEURE EXTERIEURE | --------- */
 
 .interieure {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(renovationinterieure.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(images/renovationinterieure.png);
     background-size: cover;
     background-position: center;
 }
 .exterieure {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(renovationexterieure.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(images/renovationexterieure.png);
     background-size: cover;
     background-position: center;
 }
