@@ -18,7 +18,7 @@ h2 {
     text-align: center;
     width: 100%;
     border-bottom: 4px solid rgb(122, 193, 221);
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     margin-bottom: 20px;
 }
 
@@ -61,7 +61,6 @@ nav {
     position: relative;
     max-width: 70%;
     max-height: 80px;
-    padding: 5px;
 }
     
 nav ul {
@@ -165,10 +164,10 @@ nav ul {
     background-color: #ebf5f6;
     font-size: 1.5em;
     align-items: center;
-    padding: 5%;
     text-align: justify;
     justify-content: center;
     width: auto;
+    padding: 3rem;
 }
 
 .mission {
@@ -179,6 +178,8 @@ nav ul {
     flex-grow: 1;/*J'ai eu du mal à trouver comment aligner l'image au milieu de son contenant.*/
     text-align: center;  /* text align sur l'enfant du parent flexbox, si le flex-grow prend bien la largeur restante.*/
     border: 1px solid;
+    position: relative;
+    left: 1rem;
 }
  
 
