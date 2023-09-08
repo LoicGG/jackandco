@@ -152,16 +152,12 @@ nav ul {
 /* ||**********------------- MISSION ENTREPRISE -------------********** || */
 
 
-.sectionMission {
+.sectionSpeech {
     display: flex;
     flex-wrap: wrap;
-    background-color: #f6ebeb;
+    background-color: #ebf5f6;
     font-size: 1.5em;
     align-items: center;
-
-}
-
-.mission {
     padding: 5%;
     max-width: 80rem;
 }
