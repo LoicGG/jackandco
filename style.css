@@ -167,16 +167,20 @@ nav ul {
     align-items: center;
     padding: 5%;
     text-align: justify;
+    justify-content: center;
+    width: auto;
+}
+
+.mission {
+    max-width: 80rem;
 }
 
 .ecologo {
     flex-grow: 1;/*J'ai eu du mal à trouver comment aligner l'image au milieu de son contenant.*/
     text-align: center;  /* text align sur l'enfant du parent flexbox, si le flex-grow prend bien la largeur restante.*/
-    margin-bottom: 3rem;
+    border: 1px solid;
 }
  
-
-
 
 
 
@@ -277,4 +281,8 @@ nav ul {
     background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(images/renovationexterieure.png);
     background-size: cover;
     background-position: center;
+}
+
+.actionCall {
+    
 }
