@@ -61,12 +61,17 @@ nav {
     position: relative;
     max-width: 70%;
     max-height: 80px;
+    padding: .25rem;
 }
     
 nav ul {
     display: flex;
     justify-content: space-between;
     width: 70%;  
+}
+
+nav li {
+    padding: 4px;
 }
 
 #icons {
@@ -165,9 +170,8 @@ nav ul {
     font-size: 1.5em;
     align-items: center;
     text-align: justify;
-    justify-content: center;
-    width: auto;
-    padding: 3rem;
+    justify-content: space-around;
+    padding: 1rem;
 }
 
 .mission {
@@ -175,11 +179,8 @@ nav ul {
 }
 
 .ecologo {
-    flex-grow: 1;/*J'ai eu du mal à trouver comment aligner l'image au milieu de son contenant.*/
-    text-align: center;  /* text align sur l'enfant du parent flexbox, si le flex-grow prend bien la largeur restante.*/
-    border: 1px solid;
-    position: relative;
-    left: 1rem;
+    text-align: center;  
+    padding: 1rem;
 }
  
 
@@ -200,7 +201,7 @@ nav ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 1%;
+    margin: 1rem;
 }
 
 .multiservices {
@@ -236,8 +237,51 @@ nav ul {
     font-size: 24px;
     color: #ffffff;
     line-height: 3;
+    
+    /*  ANIMATION DE LA BORDURE --- DEBUT  */
+
+
+    --c: #8A9B0F; /* the border color */
+    --b: 10px;    /* the border thickness*/
+    --g: 5px;     /* the gap on hover */
+    
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background: 
+        conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+        var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+        conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+        0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    transition: .3s, background-position .3s .3s;
+    cursor: pointer;
+    
+    /*  ANIMATION DE LA BORDURE --- FIN  */
+
+
 }
 
+.item:hover, 
+.item:active {
+    border-color: rgb(174, 21, 21);
+
+    /*  ANIMATION DE LA BORDURE --- DEBUT  */
+
+
+    --_i: 100%;
+    transition: .3s, background-size .3s .3s;
+
+    /*  ANIMATION DE LA BORDURE --- FIN  */
+
+}
+
+.item::after {
+    content:"+";
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1rem;
+
+}
 
 /*---------- | VIGNETTES DES PRESTATIONS | ---------- */
 
@@ -285,5 +329,10 @@ nav ul {
 }
 
 .actionCall {
-    
+    width: 70%;
+    line-height: 2;
+    background-color: rgba(0, 0, 0, .1);
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
 }
