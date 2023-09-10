@@ -54,7 +54,7 @@ nav {
     font-size: calc(0.5rem + 1.5vw);
     top: 0;
     border: 1px solid black;
-    z-index: 1; /* évite que le hero text passe au dessus de la barre nav*/
+    opacity: 0.99;
 }
 
 .logo img {
@@ -65,6 +65,7 @@ nav {
 }
     
 nav ul {
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 70%;  
@@ -72,6 +73,11 @@ nav ul {
 
 nav li {
     padding: 4px;
+}
+
+nav li:hover {
+    background-color: rgb(105, 163, 186);
+    border-radius: 10px;
 }
 
 #icons {
@@ -237,50 +243,23 @@ nav li {
     font-size: 24px;
     color: #ffffff;
     line-height: 3;
-    
-    /*  ANIMATION DE LA BORDURE --- DEBUT  */
-
-
-    --c: #8A9B0F; /* the border color */
-    --b: 10px;    /* the border thickness*/
-    --g: 5px;     /* the gap on hover */
-    
-    padding: calc(var(--g) + var(--b));
-    --_g: #0000 25%,var(--c) 0;
-    background: 
-        conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
-        var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
-        conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
-        0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-    transition: .3s, background-position .3s .3s;
-    cursor: pointer;
-    
-    /*  ANIMATION DE LA BORDURE --- FIN  */
-
-
 }
 
-.item:hover, 
-.item:active {
+
+
+
+
+.item:hover,
+.item:active
+ {
     border-color: rgb(174, 21, 21);
-
-    /*  ANIMATION DE LA BORDURE --- DEBUT  */
-
-
-    --_i: 100%;
-    transition: .3s, background-size .3s .3s;
-
-    /*  ANIMATION DE LA BORDURE --- FIN  */
-
-}
+ }
 
 .item::after {
     content:"+";
-    display: flex;
+    display: block;
     justify-content: center;
-    position: relative;
     top: 1rem;
-
 }
 
 /*---------- | VIGNETTES DES PRESTATIONS | ---------- */
