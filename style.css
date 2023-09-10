@@ -8,7 +8,7 @@
 }
 
 body, html {
-    font-size: 16px;
+    font-size: 14px;
     height: 100%;
     overflow: auto;
     width: 100%;
@@ -233,21 +233,17 @@ nav li:hover {
 }
 
 .item {
-    width: 20rem;
+    width: 18rem;
     height: 30vw;
     margin: 3vw;
     border: 3px solid grey;
     border-radius: 1em;
     text-align: center;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffff;
     line-height: 3;
 }
-
-
-
-
 
 .item:hover,
 .item:active
