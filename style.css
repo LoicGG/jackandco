@@ -173,7 +173,7 @@ nav li:hover {
     display: flex;
     flex-wrap: wrap;
     background-color: #ebf5f6;
-    font-size: 1.5em;
+    font-size: 1.75em;
     align-items: center;
     text-align: justify;
     justify-content: space-around;
@@ -229,13 +229,13 @@ nav li:hover {
     text-transform: uppercase;
     text-align: center;
     font-size: 2.5em;
-    padding: 1em;
+    padding: 0.5rem;
 }
 
 .item {
-    width: 18rem;
+    width: 20rem;
     height: 30vw;
-    margin: 3vw;
+    margin: 2vw;
     border: 3px solid grey;
     border-radius: 1em;
     text-align: center;
@@ -306,7 +306,8 @@ nav li:hover {
 .actionCall {
     width: 70%;
     line-height: 2;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgb(185, 49, 49);
+    color: white;
     text-align: center;
     margin: 2rem;
     padding: 1rem;
