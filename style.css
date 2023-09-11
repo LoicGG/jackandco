@@ -248,7 +248,7 @@ nav li:hover {
 .item:hover,
 .item:active
  {
-    border-color: rgb(174, 21, 21);
+    border-color: rgb(184, 19, 15);
  }
 
 .item::after {
@@ -306,7 +306,7 @@ nav li:hover {
 .actionCall {
     width: 70%;
     line-height: 2;
-    background-color: rgb(185, 49, 49);
+    background-color: rgb(184, 19, 15);
     color: white;
     text-align: center;
     margin: 2rem;
