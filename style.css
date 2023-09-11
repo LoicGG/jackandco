@@ -245,7 +245,12 @@ nav li:hover {
     font-size: 20px;
     color: #ffffff;
     line-height: 3;
+    position: relative;
+    display: block;
 }
+
+
+
 
 .item:hover,
 .item:active
@@ -256,8 +261,8 @@ nav li:hover {
 .item::after {
     content:"+";
     display: block;
-    justify-content: center;
-    top: 1rem;
+    position: absolute;
+    margin: 50%;
 }
 
 /*---------- | VIGNETTES DES PRESTATIONS | ---------- */
@@ -389,9 +394,7 @@ nav li:hover {
   
 
 
-  .active, .dot:hover {
-    background-color: #717171;
-  }
+  
 
 
   /* Fading animation */
