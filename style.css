@@ -8,7 +8,7 @@
 }
 
 body, html {
-    font-size: 14px;
+    font-size: 12px;
     height: 100%;
     overflow: auto;
     width: 100%;
@@ -51,7 +51,7 @@ nav {
     justify-content: space-between;
     padding: 0% 5% 0% 0%;
     align-items: center;
-    font-size: calc(0.5rem + 1.5vw);
+    font-size: calc(0.5rem + 1vw);
     top: 0;
     border: 1px solid black;
     text-transform: uppercase;
@@ -95,8 +95,8 @@ nav li:hover {
     }
     
     #icons::before {
-        content: "MENU \2630";
-        font-size: calc(0.7rem + 1.5vw);
+        content: "MENU\2630";
+        font-size: calc(0.8rem + 1.5vw);
         position: relative; /*permet de déplacer la croix si on déplace la barre nav*/
     }
     
@@ -163,8 +163,7 @@ nav li:hover {
 }
 
 .hero-text > button {
-    margin: 1rem;
-    
+    margin: 1vw;
 }
 
 /* ||**********------------- MISSION ENTREPRISE -------------********** || */
@@ -174,11 +173,11 @@ nav li:hover {
     display: flex;
     flex-wrap: wrap;
     background-color: #ebf5f6;
-    font-size: 1.75em;
+    font-size: 1.5rem;
     align-items: center;
     text-align: justify;
     justify-content: space-around;
-    padding: 1rem;
+    padding: 1vw;
 }
 
 
@@ -210,7 +209,7 @@ nav li:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 1rem;
+    margin: 1vw;
 }
 
 .multiservices {
@@ -222,7 +221,7 @@ nav li:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 1rem;
+    margin: 1vw;
 }
 
 
@@ -236,19 +235,19 @@ nav li:hover {
 }
 
 .item {
-    width: 20rem;
-    height: 30vw;
+    width: 30rem;
+    height: 35vh;
     margin: 2vw;
     border: 3px solid grey;
     border-radius: 1em;
     text-align: center;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: calc(1.2rem + 0.8vw);
     color: #ffffff;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 2vw;
+    padding: 0.5vw;
     opacity: 0.85;
 }
 
@@ -261,7 +260,7 @@ nav li:hover {
  }
 
  .oplus {
-    font-size: 6rem;
+    font-size: 4rem;
     cursor: pointer;
  }
  
@@ -414,28 +413,34 @@ nav li:hover {
     flex-direction: column;
     text-align: center;
     border: 2px solid black;
-    font-size: 1.75rem;
+    font-size: calc(1.2rem + 0.8vw);
+}
+
+.grologo img {
+    width: 50vw;
+    max-width: 400px;
+    
 }
 
 .conteneurPartenaires {
     display: flex;
     flex-direction: row;
     width: 100%;
-    
-
 }
 
 .nosPartenaires {
-    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 1rem;
+    font-size: calc(1.2rem + 0.8vw);
 }
+
 .nosPartenaires a img {
     border: 1px solid red;
-    width: 300px;
+    width: 25vw;
 }
 
 
@@ -455,7 +460,7 @@ footer {
 }
 
 footer .petitLogo > img {
-    width: 10vw;
+    width: 2rem;
 
 }
 
@@ -472,7 +477,7 @@ footer .petitLogo > img {
 }
 .piedDePage ul > li {
     border-bottom: 1px solid black;
-    font-size: 1rem;
+    font-size: calc(0.6rem + 0.4vw);
     padding: .5rem 0;
     position: relative;
     right: 2vw;
