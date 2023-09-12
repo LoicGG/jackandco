@@ -30,7 +30,6 @@ a,
 a:visited {
     color: black;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 a:hover {
@@ -55,6 +54,8 @@ nav {
     font-size: calc(0.5rem + 1.5vw);
     top: 0;
     border: 1px solid black;
+    text-transform: uppercase;
+
 }
 
 .logo img {
@@ -203,7 +204,7 @@ nav li:hover {
 .prestations {
     display: flex;
     flex-wrap: wrap;
-    border-radius: 2%;
+    border-radius: 2em;
     justify-content: center;
     background: radial-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(images/fermefinlandaise.png);
     background-position: center;
@@ -221,7 +222,7 @@ nav li:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 1%;
+    margin: 1rem;
 }
 
 
@@ -242,28 +243,28 @@ nav li:hover {
     border-radius: 1em;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 2rem;
     color: #ffffff;
-    line-height: 3;
-    position: relative;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2vw;
+    opacity: 0.85;
 }
-
-
-
 
 .item:hover,
 .item:active
  {
     border-color: rgb(184, 19, 15);
+    opacity: 1;
+    cursor: pointer;
  }
 
-.item::after {
-    content:"+";
-    display: block;
-    position: absolute;
-    margin: 50%;
-}
+ .oplus {
+    font-size: 6rem;
+    cursor: pointer;
+ }
+ 
 
 /*---------- | VIGNETTES DES PRESTATIONS | ---------- */
 
@@ -293,7 +294,6 @@ nav li:hover {
 .destruction {
     background-image: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), url(images/niddeguepes.png);
     background-size: cover;
-    line-height: 2;
     background-position: center;
 }
 
@@ -321,6 +321,8 @@ nav li:hover {
 }
 
 
+
+/*--------- | CONTENEUR DE DIAPORAMAS | --------- */
 /* Slideshow container */
 .slideshow-container {
     max-width: 500px;
@@ -391,11 +393,6 @@ nav li:hover {
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
-
-
-  
-
 
   /* Fading animation */
   .fade {
@@ -409,3 +406,74 @@ nav li:hover {
     to {opacity: 1}
   }
 
+
+/*--------- | REMINDER | --------- */
+
+.reminder {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 1.75rem;
+}
+
+.conteneurPartenaires {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+
+}
+
+.nosPartenaires {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nosPartenaires a img {
+    border: 1px solid red;
+    width: 300px;
+}
+
+
+
+
+
+/*--------- | FOOTER | --------- */
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: skyblue;
+    position: relative;
+
+}
+
+footer .petitLogo > img {
+    width: 10vw;
+
+}
+
+.piedDePage {
+    
+
+}
+
+.piedDePage > ul {
+    display: flex;
+    position: relative;
+    justify-content:space-around;
+    padding-bottom: .5rem;
+}
+.piedDePage ul > li {
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    padding: .5rem 0;
+    position: relative;
+    right: 2vw;
+}
