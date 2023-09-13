@@ -20,7 +20,7 @@ h2 {
     border-bottom: 4px solid rgb(122, 193, 221);
     padding-bottom: 3%;
     margin-bottom: 20px;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 li {
@@ -36,6 +36,11 @@ a:visited {
 a:hover {
     color: white;
 }   
+
+section {
+   
+}
+
 
 
 /************ HEADER ***********/
@@ -113,13 +118,14 @@ nav li:hover {
         background: skyblue;
         width: 50%;
         text-align: center;
-        transition: 0.25s;
+        transition: 0.5s;
         border: 1px solid grey;
         border-radius: 10px;
+        font-size: 1.5rem;
     }
     
     nav li {
-        padding: 3px;
+        padding: 1rem;
     }
     
     nav li:hover {
@@ -146,7 +152,7 @@ nav li:hover {
 /* ||**********-------------- SECTION HERO -------------********** || */
 .hero {
     width: 100%;
-    height: 30vw;
+    height: 32vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/worker.jpg");
     background-size: cover;
     background-position-y: bottom;
@@ -161,6 +167,7 @@ nav li:hover {
     text-align: center;
     font-size: 4vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
 }
 
 .hero-text > button {
@@ -329,6 +336,7 @@ nav li:hover {
     max-width: 300px;
     position: relative;
     margin: auto;
+    
   }
   
   /* Hide the images by default */
@@ -414,9 +422,8 @@ nav li:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid red;
     font-size: calc(1.2rem + 0.8vw);
-    width: 100%;
 }
 
 .grologo img {
@@ -442,7 +449,7 @@ nav li:hover {
 }
 
 .nosPartenaires a img {
-    border: 1px solid red;
+    border: 1px solid rgb(173, 173, 173);
     width: 25vw;
 }
 
