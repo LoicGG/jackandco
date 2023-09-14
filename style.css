@@ -354,7 +354,7 @@ nav li:hover {
 /*--------- | CONTENEUR DE DIAPORAMAS | --------- */
 /* Slideshow container */
 .slideshow-container {
-    max-width: 300px;
+    max-width: 70vw;
     position: relative;
     margin: auto;
     
