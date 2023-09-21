@@ -97,7 +97,7 @@ a:hover {
     border: none;
     position: relative;
     overflow: hidden;
-    z-index: 1;
+    z-index: 0;
     box-shadow: 6px 6px 12px #00000078,
                 -6px -6px 12px #f7f7f767;
     margin: 1rem;
@@ -145,7 +145,6 @@ nav {
     top: 0;
     border: 1px solid black;
     text-transform: uppercase;
-
 }
 
 .logo img {
@@ -336,6 +335,7 @@ nav li:hover {
     flex-direction: column;
     padding: 0.5vw;
     opacity: 0.85;
+    transition: transform 3s;
 }
 
 .item:hover,
@@ -344,6 +344,8 @@ nav li:hover {
     border-color: rgb(184, 19, 15);
     opacity: 1;
     cursor: pointer;
+    transform: scale(0.9);
+    rotate: -5deg;   
  }
 
  .oplus {
