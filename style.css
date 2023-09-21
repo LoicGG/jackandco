@@ -51,7 +51,7 @@ a:hover {
     color: white;
 }   
 
-:target::before { /* This rule allows the anchor to link *height* lower than expected. Avoid from landing on the target content */
+:target::before { /* This rule allows the anchor to link *height* lower than expected. Avoid navbar */
     content: "";
     display: block;
     height: 5rem; /* fixed header height*/
