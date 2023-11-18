@@ -247,6 +247,8 @@ nav li:hover {
     text-align: center;
     font-size: 4vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    animation: fadeIn 2s ease-in-out;
 }
 
 
@@ -585,3 +587,21 @@ footer .petitLogo > img {
     position: relative;
     right: 2vw;
 }
+
+
+
+/*--------- | ANIMATIONS | --------- */
+
+
+
+
+
+@keyframes fadeIn {  
+    from {  
+        opacity:0;  
+    }  
+ 
+    to {  
+        opacity:1;  
+    }  
+ }
