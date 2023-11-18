@@ -1,0 +1,61 @@
+form {
+    margin: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+    display: block;
+    justify-content: space-between;
+    text-align: justify;
+    font-size: 2rem;
+        
+}
+
+
+input {
+    width: 15em;
+    height: 2em;
+}
+
+textarea {
+    width: 100%;
+    height: 30vh;
+    font-size: 1.5rem;
+    
+}
+
+.fancyButton1 {
+    width: 9em;
+    height: 3em;
+    border-radius: 1em;
+    font-size: 1.5rem;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    box-shadow: 6px 6px 12px #00000078,
+                -6px -6px 12px #f7f7f767;
+    margin: 1rem;
+   }
+   
+.fancyButton1::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #a50000 0%, rgb(255, 61, 61) 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+.fancyButton1:hover::before {
+    width: 9em;
+}
+
+.fancyButton1:hover {
+    color: white;
+}

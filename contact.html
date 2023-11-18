@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site vitrine</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactStyles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 
@@ -45,21 +46,6 @@
         </nav>
     </header>
 <!-------------FIN DU HEADER | BARRE DE NAVIGATION------------->
-    
-
-<form name="contact" netlify>
-    <p>
-    <label>Name <input type="text" name="name" /></label>
-    </p>
-    <p>
-    <label>Email <input type="email" name="email" /></label>
-    </p>
-    <p>
-    <button type="submit">Send</button>
-    </p>
-</form>
-
- 
 
 
 <!------------------- | DEBUT DE MAIN | ------------------>
@@ -71,6 +57,24 @@
             <button onclick="window.location.href = '#contact'" class="fancyButton1" role="button">Nous contacter</button>  
         </div>        
     <!----------| SECTION TRAITEMENT DES NUISIBLES - MISSION D'ENTREPRISE |----------->
+    
+    
+    <form name="contact" netlify>
+        <p>
+        <label class="votreNom">Votre nom : <input type="text" name="name" /></label>
+        </p><br>
+        <p>
+        <label class="votreNom">Email : <input type="email" name="email" /></label>
+        </p><br>
+        <p>
+        <p>
+        <label>Laissez-moi un message : <br>
+        <textarea name="message"></textarea></label>
+        </p>
+        <p>
+        <button class="fancyButton1" type="submit">Envoyer</button>
+        </p>
+    </form>
 
 
     <!-------------- SECTION HORAIRES ET CONTACT----------->
