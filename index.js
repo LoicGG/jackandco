@@ -11,6 +11,7 @@ links.forEach((link) => {
         nav.classList.remove("active");
     });
 });
+
 /***************END OF NAV BAR ****************/
  
 
