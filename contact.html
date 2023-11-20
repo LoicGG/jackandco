@@ -57,7 +57,7 @@
         </div>        
     <!----------| SECTION TRAITEMENT DES NUISIBLES - MISSION D'ENTREPRISE |----------->
     
-    <form class="form" name="demandeDeContact" method="POST">
+    <form class="form" method="POST">
 
         <div class="title">Bonjour,</div>
         <div class="subtitle">Laissez-moi un message,</div>
@@ -87,19 +87,22 @@
 
 
 
-    <form name="demandeDeContact" method="POST" netlify>
-        <p>
-            <label>Your Name: <input type="text" name="namee" /></label>
-        </p>
-        <p>
-            <label>Your Email: <input type="email" name="emaile" /></label>
-        </p>
-        <p>
-            <label>Message: <textarea name="messagee"></textarea></label>
-        </p>
-        <p>
-            <button type="submit">Send</button>
-        </p>
+    <form class="form" name="demandeDeContact" method="POST" netlify>
+        <div class="title">Bonjour,</div>
+        <div class="subtitle">Laissez-moi un message,</div>
+        <div class="subtitle">je vous recontacte au plus vite</div>
+
+        <label>Your Name: <input type="text" name="namee" /></label>
+
+
+        <label>Your Email: <input type="email" name="emaile" /></label>
+
+
+        <label>Message: <textarea name="messagee"></textarea></label>
+    
+
+        <button type="submit" class="submit">Envoyer</button>
+
     </form>
 
 
