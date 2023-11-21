@@ -101,7 +101,7 @@ a:hover {
     box-shadow: 6px 6px 12px #00000078,
                 -6px -6px 12px #f7f7f767;
     margin: 1rem;
-    
+    animation: fade 2s;
    }
    
 .fancyButton1::before {
@@ -269,7 +269,7 @@ nav li:hover {
     justify-content: space-around;
     padding: 1rem;
     width: auto;
-    animation: slide-left 2s;
+    animation: slide-left 500ms;
 
 }
 
@@ -294,7 +294,7 @@ nav li:hover {
 /* ------------- |  COMPORTEMENT DES CONTENEURS - VIGNETTES |------------ */
 
 #sectionPrestations {
-    animation: 5s slide-up;
+    animation: 4s slide-up;
 }
 
 
