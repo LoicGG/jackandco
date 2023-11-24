@@ -51,12 +51,24 @@ a:hover {
     color: white;
 }   
 
-:target::before { /* This rule allows the anchor to link *height* lower than expected. Avoid navbar */
+.tel {
+    color:#a50000;
+
+}
+
+.tel:hover {
+    color:#a50000;
+    background-color: #e9d5d5;
+    border-radius: 15px; 
+
+}
+
+/* :target::before { /* This rule allows the anchor to link *height* lower than expected. Avoid navbar */
     content: "";
     display: block;
     height: 5rem; /* fixed header height*/
     margin: -60px 0 0; /* negative fixed header height */
-}
+} */
 
 .rouge {
     color: rgb(200, 1, 1);
