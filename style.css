@@ -305,7 +305,7 @@ nav li:hover {
 /* ------------- |  COMPORTEMENT DES CONTENEURS - VIGNETTES |------------ */
 
 #sectionPrestations {
-    animation: 4s slide-up;
+    animation: 2s slide-up;
 }
 
 
